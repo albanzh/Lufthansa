@@ -1,5 +1,13 @@
 # Lufthansa
-
+Install Azure CLI
+Install Terraform
+Configure your environment to run Terraform on Windows
+Understand common Terraform and Azure authentication scenarios
+Authenticate via a Microsoft account from Windows
+Create a service principal using the Azure CLI
+Create a service principal using Azure PowerShell
+Specify service principal credentials in environment variables
+Specify service principal credentials in a Terraform provider block
 Resource Group: A foundational resource to group and manage all related Azure resources.
 Virtual Network and Subnet: Network configurations for isolating resources and managing the flow of data.
 Network Security Group: To define inbound and outbound security rules for the resources.
