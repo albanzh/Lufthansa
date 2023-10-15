@@ -13,12 +13,9 @@ Network Interface: Configures network interfaces for Virtual Machines.
 Load Balancer: Distributes inbound traffic across VM instances.
 Windows Virtual Machines: Deploys a set of Windows Server 2019 instances. Uses random usernames and passwords for added security.
 VM Extensions: Executes custom scripts on VM instances for tasks like domain joining and setting up RDS (Remote Desktop Services).
-Pre-requisites
-Terraform installed.
-An active Azure subscription.
-Azure CLI (optional, for authentication).
-Variables
-Ensure you set the necessary Terraform variables, either through a terraform.tfvars file or through environment variables. Here are some of the key variables:
+
+
+Here are some of the key variables:
 prefix: A string used as a naming prefix for all provisioned resources.
 location: Azure region where the resources should be created.
 vm_count: Number of VM instances to deploy.
